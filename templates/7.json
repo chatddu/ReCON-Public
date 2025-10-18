@@ -1,0 +1,24 @@
+{
+    "tag": "7",
+    "istemplate": "True",
+    "isdynamiccandidate": "True",
+    "children": [
+       {
+           "tag": "x",
+           "children": [
+              {"tag": "x"},
+              {"tag": "x"},
+              {"tag": "x"},
+              {"tag": "x"},
+              {"tag": "x"},
+              {"tag": "x"},
+              {"tag": "x",
+               "position": "center",
+               "children": [
+                  {"tag": "x"}
+               ]
+              }
+               ]
+              }
+            ]
+        }

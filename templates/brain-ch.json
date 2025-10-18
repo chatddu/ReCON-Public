@@ -1,0 +1,68 @@
+{
+    "tag": "brain",
+    "colorlistname": "braintish",
+    "children": [
+        {
+            "tag": "cerebrum",
+            "children": [
+                {
+                    "tag": "frontal"
+                },
+                {
+                    "tag": "parietal"
+                },
+                {
+                    "tag": "temporal"
+                },
+                {
+                    "tag": "occipital"
+                }
+            ]
+        },
+        {
+            "tag": "cerebellum",
+            "children": [
+                {
+                    "tag": "anterior"
+                },
+                {
+                    "tag": "posterior"
+                },
+                {
+                    "tag": "flocculonodular"
+                }
+            ]
+        },
+        {
+            "tag": "brainstem",
+            "children": [
+                {
+                    "tag": "midbrain"
+                },
+                {
+                    "tag": "pons"
+                },
+                {
+                    "tag": "medulla oblongata"
+                }
+            ]
+        },
+        {
+            "tag": "choice",
+            "colorlistname": "choicetish",
+            "colormode": "smooth_loop",
+            "position": "center",
+            "children": [
+                {
+                    "tag": "you"
+                },
+                {
+                    "tag": "me"
+                },
+                {
+                    "tag": "we"
+                }
+            ]
+        }
+    ]
+}

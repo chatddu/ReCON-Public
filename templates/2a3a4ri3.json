@@ -1,0 +1,48 @@
+{
+    "tag": "2a3a4ri3",
+    "istemplate": "yes",
+    "children": [
+       {
+           "tag": "Child 1",
+           "children": [
+              {
+                "tag": "Grandchild 31"
+              },
+              {
+                "tag": "Grandchild 32"
+              }
+           ]
+       },
+       {
+           "tag": "Child 2",
+           "children": [
+              {
+                "tag": "Grandchild 33"
+              },
+              {
+                "tag": "Grandchild 34"
+              },
+              {
+                "tag": "Grandchild 36"
+              }
+           ]
+       },
+       {
+           "tag": "Child 3",
+           "children": [
+              {
+                "tag": "Grandchild 35"
+              },
+              {
+                "tag": "Grandchild 37"
+              },
+              {
+                "tag": "Grandchild 38"
+              },
+              {
+                "tag": "Grandchild 39"
+              }
+           ]
+       }
+    ]
+ }

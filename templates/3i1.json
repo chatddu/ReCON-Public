@@ -1,0 +1,15 @@
+{
+    "tag": "3i1",
+    "istemplate": "yes",
+    "children": [
+       {
+           "tag": "Child 1"
+       },
+       {
+           "tag": "Child 2"
+       },
+       {
+           "tag": "Child 3"
+       }
+    ]
+ }

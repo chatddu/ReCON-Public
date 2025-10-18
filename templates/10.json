@@ -1,0 +1,26 @@
+{
+    "tag": "10",
+    "istemplate": "yes",
+    "children": [
+       {
+           "tag": "x",
+           "children": [
+              {"tag": "x"},
+              {"tag": "x"},
+              {"tag": "x"},
+              {"tag": "x"},
+              {"tag": "x"},
+              {"tag": "x"},
+              {"tag": "x"},
+              {"tag": "x",
+               "position": "center",
+               "children": [
+                  {"tag": "x"},
+                  {"tag": "x"},
+                  {"tag": "x"}
+               ]
+              }
+               ]
+              }
+            ]
+        }

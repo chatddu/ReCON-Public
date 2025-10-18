@@ -1,0 +1,96 @@
+########## --- pattern for json input files (use single quotes)
+jfiles '*.json'
+########## --- radius of primary (outer) circle (excluding margin)
+r 250
+########## --- width between outermost circle edge and canvas edge
+margin 20
+########## --- channel width
+cw 15
+########## ---  page width in pixels (carousel = 1080)
+pgwidth 506
+########## --- page height in pixels (carousel = 1350)
+pgheight 506
+########## --- show style/theme lines for, e.g., carousel posts
+#postdeco
+########## --- pupil scaling factor (multiple of radius, default = 0.05)
+pupilscale 0.12
+########## --- center the yin/yang on the page
+center
+########## --- the number of include levels to process
+includesdepth 0
+########## --- fully render the results, or, advise on canvas size scale-up required
+render_fully
+########## --- generate flattened version
+#flatten
+########## --- generate CSV with coordinates/radii for html/js rendering
+#gengeo
+########## --- parent parentnode line thickness (except outermost)
+parentnode_line_thickness 1
+########## --- outermost and leaf line thickness
+leafnode_line_thickness 1
+########## --- parent parentnode line thickness (except outermost)
+parentnode_line_color (180,180,180)
+########## --- outermost and leaf line thickness
+leafnode_line_color (180,180,180)
+########## --- hide lines after coloring
+#hidelines
+########## --- number of frames for one revolution
+frames 1
+########## --- number of frames specified is firm, do not adjust per color list lengths
+framesfirm
+########## --- frame per second
+fps 12
+########## --- last frame orientation = first (0 degrees)
+#closure
+########## --- flood parent centers to look for spill into children vanguards
+#flood_centers
+########## --- suppress coloring after the wireframe is built
+#noflood
+########## --- show flood points (small red circles)
+#showfp
+########## --- exclude baffles (which might result in bleeding)
+#nobaffles
+########## --- show wireframe and flooded images interactively
+#showimg
+########## --- directory containing colorspecs_*.json files
+colorspecs_dir ../colorspecs_dir
+########## --- directory containing profile_*.json files
+#profiles_dir ../profiles_dir
+########## --- randomly select an element's initial color from color list, start with first color on list
+randcolorstart
+########## --- color list name
+colorlistname desert_dunes
+########## --- fill body only (no vanguards or governors)
+#fill_body_only
+########## --- profile name
+#profilename cytoplasm
+########## --- color list name
+#profilecolorlistname winwincoeff
+########## --- attribute propogation iterations (e.g. winwincoeff)
+#attrpropiters 1
+########## --- color transition smoothness mode
+#colormode original
+########## --- use only one color for each node
+#stickycolors
+########## --- globally disable colorburst option
+#nocolorburst
+########## --- assign color lists randomly where non are specified
+randomcolorlists
+########## --- progress dot color
+progdotcolor (250,150,0)
+########## --- pupil color
+pupilcolor (10,10,10)
+########## --- number of gradiented frames to insert between colors on a list
+auto_gradient_frames 20
+########## --- background gradient base color
+bggrad1 (255,0,255)
+########## --- background gradient base color
+bggrad2 (15, 201, 255)
+########## --- apply gradient to background (page)
+#gradientbg
+########## --- show tags (without leading hyphens)
+#tags
+########## --- show hidden tags (with leading hyphens)
+#hiddentags
+########## --- show a smile (currently limited to 2i1)
+#smile
