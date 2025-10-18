@@ -1,0 +1,12 @@
+{
+    "name": "winwincoeff",
+    "type": "list",
+    "colors": [
+      "(254,94,5)", "(254,165,115)", "(254, 210, 185)", "(128,128,128)",
+      "(152,251,152)", "(173, 254, 47)", "(0, 254, 0)"
+    ],
+    "labels": [
+      "natural", "intentional", "tending", "neutral", "tending", "intentional", "natural"
+    ]
+  }
+  
